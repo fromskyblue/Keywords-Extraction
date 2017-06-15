@@ -1,0 +1,9 @@
+E:\云盘\程序\基于熵差的关键词提取_杨老师论文\测试\GDITest\GDITest\bin\Debug\GDITest.exe
+E:\云盘\程序\基于熵差的关键词提取_杨老师论文\测试\GDITest\GDITest\bin\Debug\GDITest.pdb
+E:\云盘\程序\基于熵差的关键词提取_杨老师论文\测试\GDITest\GDITest\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\云盘\程序\基于熵差的关键词提取_杨老师论文\测试\GDITest\GDITest\obj\x86\Debug\GDITest.Form1.resources
+E:\云盘\程序\基于熵差的关键词提取_杨老师论文\测试\GDITest\GDITest\obj\x86\Debug\GDITest.Properties.Resources.resources
+E:\云盘\程序\基于熵差的关键词提取_杨老师论文\测试\GDITest\GDITest\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\云盘\程序\基于熵差的关键词提取_杨老师论文\测试\GDITest\GDITest\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\云盘\程序\基于熵差的关键词提取_杨老师论文\测试\GDITest\GDITest\obj\x86\Debug\GDITest.exe
+E:\云盘\程序\基于熵差的关键词提取_杨老师论文\测试\GDITest\GDITest\obj\x86\Debug\GDITest.pdb

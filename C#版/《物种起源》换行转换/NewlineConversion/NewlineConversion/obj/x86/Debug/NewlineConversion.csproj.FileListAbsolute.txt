@@ -1,0 +1,5 @@
+E:\云盘\程序\基于熵差的关键词提取\《物种起源》换行转换\NewlineConversion\NewlineConversion\bin\Debug\NewlineConversion.exe
+E:\云盘\程序\基于熵差的关键词提取\《物种起源》换行转换\NewlineConversion\NewlineConversion\bin\Debug\NewlineConversion.pdb
+E:\云盘\程序\基于熵差的关键词提取\《物种起源》换行转换\NewlineConversion\NewlineConversion\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\云盘\程序\基于熵差的关键词提取\《物种起源》换行转换\NewlineConversion\NewlineConversion\obj\x86\Debug\NewlineConversion.exe
+E:\云盘\程序\基于熵差的关键词提取\《物种起源》换行转换\NewlineConversion\NewlineConversion\obj\x86\Debug\NewlineConversion.pdb

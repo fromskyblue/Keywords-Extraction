@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "中文分词", "中文分词\中文分词.vcxproj", "{E8E5622B-3E01-46CB-B561-CA1BBF58A795}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8E5622B-3E01-46CB-B561-CA1BBF58A795}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8E5622B-3E01-46CB-B561-CA1BBF58A795}.Debug|Win32.Build.0 = Debug|Win32
+		{E8E5622B-3E01-46CB-B561-CA1BBF58A795}.Release|Win32.ActiveCfg = Release|Win32
+		{E8E5622B-3E01-46CB-B561-CA1BBF58A795}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

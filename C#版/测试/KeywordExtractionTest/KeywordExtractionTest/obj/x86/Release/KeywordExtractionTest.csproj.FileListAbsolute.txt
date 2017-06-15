@@ -1,0 +1,9 @@
+E:\云盘\程序\基于熵差的关键词提取\测试\KeywordExtractionTest\KeywordExtractionTest\bin\Release\KeywordExtractionTest.exe
+E:\云盘\程序\基于熵差的关键词提取\测试\KeywordExtractionTest\KeywordExtractionTest\bin\Release\KeywordExtractionTest.pdb
+E:\云盘\程序\基于熵差的关键词提取\测试\KeywordExtractionTest\KeywordExtractionTest\obj\x86\Release\ResolveAssemblyReference.cache
+E:\云盘\程序\基于熵差的关键词提取\测试\KeywordExtractionTest\KeywordExtractionTest\obj\x86\Release\KeywordExtractionTest.exe
+E:\云盘\程序\基于熵差的关键词提取\测试\KeywordExtractionTest\KeywordExtractionTest\obj\x86\Release\KeywordExtractionTest.pdb
+E:\360云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\KeywordExtractionTest\KeywordExtractionTest\obj\x86\Release\KeywordExtractionTest.exe
+E:\360云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\KeywordExtractionTest\KeywordExtractionTest\obj\x86\Release\KeywordExtractionTest.pdb
+E:\360云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\KeywordExtractionTest\KeywordExtractionTest\bin\Release\KeywordExtractionTest.exe
+E:\360云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\KeywordExtractionTest\KeywordExtractionTest\bin\Release\KeywordExtractionTest.pdb

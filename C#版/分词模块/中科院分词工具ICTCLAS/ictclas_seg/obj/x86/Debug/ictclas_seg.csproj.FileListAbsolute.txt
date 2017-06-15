@@ -1,0 +1,5 @@
+E:\云盘\程序\基于熵差的关键词提取\测试\ictclas_seg\ictclas_seg\bin\Debug\ictclas_seg.exe
+E:\云盘\程序\基于熵差的关键词提取\测试\ictclas_seg\ictclas_seg\bin\Debug\ictclas_seg.pdb
+E:\云盘\程序\基于熵差的关键词提取\测试\ictclas_seg\ictclas_seg\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\云盘\程序\基于熵差的关键词提取\测试\ictclas_seg\ictclas_seg\obj\x86\Debug\ictclas_seg.exe
+E:\云盘\程序\基于熵差的关键词提取\测试\ictclas_seg\ictclas_seg\obj\x86\Debug\ictclas_seg.pdb

@@ -1,0 +1,4 @@
+LIBRARY "IctclasDll"
+
+EXPORTS
+IctclasProcess

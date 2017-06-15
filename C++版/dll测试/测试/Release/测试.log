@@ -1,0 +1,24 @@
+﻿生成启动时间为 2013/8/4 16:26:01。
+     1>项目“D:\VS工程\测试\测试\测试.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\测试.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "测试.cpp"
+         测试.cpp
+     1>测试.cpp(34): warning C4244: “=”: 从“std::streamoff”转换到“long”，可能丢失数据
+     1>测试.cpp(70): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS工程\测试\Release\测试.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\测试.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\VS工程\测试\Release\测试.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS工程\测试\Release\测试.lib" /MACHINE:X86 "Release\测试.obj"
+         正在生成代码
+         已完成代码的生成
+         测试.vcxproj -> D:\VS工程\测试\Release\测试.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\VS工程\测试\Release\测试.exe;#1" /manifest "Release\测试.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\测试.unsuccessfulbuild”。
+         正在对“Release\测试.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\VS工程\测试\测试\测试.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.97

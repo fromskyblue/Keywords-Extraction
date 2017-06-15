@@ -1,0 +1,100 @@
+﻿生成启动时间为 2013/8/14 0:54:51。
+     1>项目“E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\分词DLL\IctclasDll\IctclasDll\IctclasDll.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\IctclasDll.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\IctclasDll.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ICTCLASDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\IctclasDll.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ICTCLASDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ICTCLASDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\IctclasDll.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt HMM.cpp IctclasDll.cpp NGRAM.cpp PLib.cpp PRISCLAS.cpp Segment.cpp
+         Segment.cpp
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\segment.cpp(470): warning C4018: “<”: 有符号/无符号不匹配
+         PRISCLAS.cpp
+         PLib.cpp
+         NGRAM.cpp
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\ngram.cpp(61): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\ngram.cpp(86): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\ngram.cpp(89): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\ngram.cpp(93): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\ngram.cpp(94): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\ngram.cpp(96): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\ngram.cpp(101): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\ngram.cpp(102): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\ngram.cpp(103): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\ngram.cpp(117): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         IctclasDll.cpp
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\ictclasdll.cpp(17): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\ictclasdll.cpp(22): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\ictclasdll.cpp(31): warning C4996: 'std::basic_string<_Elem,_Traits,_Ax>::copy': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+                 d:\program files\microsoft visual studio 10.0\vc\include\xstring(1556) : 参见“std::basic_string<_Elem,_Traits,_Ax>::copy”的声明
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+         HMM.cpp
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\hmm.cpp(119): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\hmm.cpp(125): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\hmm.cpp(131): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\hmm.cpp(164): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\hmm.cpp(186): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\hmm.cpp(208): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\hmm.cpp(349): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\hmm.cpp(351): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\云盘\程序\基于熵差的关键词提取_杨老师论文\c#版\测试\分词dll\ictclasdll\ictclasdll\hmm.cpp(359): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\IctclasDll.dll.embed.manifest.res" Debug\IctclasDll_manifest.rc 
+       Link:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\分词DLL\IctclasDll\Debug\IctclasDll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"IctclasDll.def" /MANIFEST /ManifestFile:"Debug\IctclasDll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\分词DLL\IctclasDll\Debug\IctclasDll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\分词DLL\IctclasDll\Debug\IctclasDll.lib" /MACHINE:X86 /DLL Debug\IctclasDll.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\HMM.obj
+         Debug\IctclasDll.obj
+         Debug\NGRAM.obj
+         Debug\PLib.obj
+         Debug\PRISCLAS.obj
+         Debug\Segment.obj
+         Debug\stdafx.obj
+            正在创建库 E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\分词DLL\IctclasDll\Debug\IctclasDll.lib 和对象 E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\分词DLL\IctclasDll\Debug\IctclasDll.exp
+       Manifest:
+         正在删除文件“Debug\IctclasDll.dll.embed.manifest”。
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\IctclasDll.dll.embed.manifest" /manifest Debug\IctclasDll.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\IctclasDll.dll.embed.manifest.res" Debug\IctclasDll_manifest.rc 
+       LinkEmbedManifest:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\分词DLL\IctclasDll\Debug\IctclasDll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"IctclasDll.def" /MANIFEST /ManifestFile:"Debug\IctclasDll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\分词DLL\IctclasDll\Debug\IctclasDll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\分词DLL\IctclasDll\Debug\IctclasDll.lib" /MACHINE:X86 /DLL Debug\IctclasDll.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\HMM.obj
+         Debug\IctclasDll.obj
+         Debug\NGRAM.obj
+         Debug\PLib.obj
+         Debug\PRISCLAS.obj
+         Debug\Segment.obj
+         Debug\stdafx.obj
+            正在创建库 E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\分词DLL\IctclasDll\Debug\IctclasDll.lib 和对象 E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\分词DLL\IctclasDll\Debug\IctclasDll.exp
+         IctclasDll.vcxproj -> E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\分词DLL\IctclasDll\Debug\IctclasDll.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\IctclasDll.unsuccessfulbuild”。
+         正在对“Debug\IctclasDll.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\分词DLL\IctclasDll\IctclasDll\IctclasDll.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.78

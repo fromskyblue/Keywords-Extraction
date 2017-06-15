@@ -1,0 +1,30 @@
+﻿生成启动时间为 2013/8/13 22:22:00。
+     1>项目“E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\中文分词\中文分词\中文分词.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\中文分词.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>test.cpp(22): warning C4018: “<”: 有符号/无符号不匹配
+     1>test.cpp(26): warning C4018: “<”: 有符号/无符号不匹配
+     1>test.cpp(46): warning C4244: “=”: 从“std::streamoff”转换到“long”，可能丢失数据
+       Link:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\中文分词\Release\中文分词.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\中文分词.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\中文分词\Release\中文分词.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\中文分词\Release\中文分词.lib" /MACHINE:X86 Release\HMM.obj
+         Release\NGRAM.obj
+         Release\PLib.obj
+         Release\PRISCLAS.obj
+         Release\Segment.obj
+         Release\test.obj
+         正在生成代码
+         已完成代码的生成
+         中文分词.vcxproj -> E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\中文分词\Release\中文分词.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\中文分词\Release\中文分词.exe;#1" /manifest "Release\中文分词.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\中文分词.unsuccessfulbuild”。
+         正在对“Release\中文分词.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\云盘\程序\基于熵差的关键词提取_杨老师论文\C#版\测试\中文分词\中文分词\中文分词.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:32.85
