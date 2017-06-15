@@ -7,39 +7,19 @@ Here ,we provide simple and practical keyword extraction software and dll for lo
 - [Download Keyword_Extraction_Based_On_Entropy_Difference-noexe.zip - 8.8 MB](https://www.codeproject.com/KB/DLL/643619/Keyword_Extraction_Based_On_Entropy_Difference-noexe.zip)
 - [Download Keyword_Extraction_Based_On_Entropy_Difference.zip - 8.9 MB](https://www.codeproject.com/KB/DLL/643619/Keyword_Extraction_Based_On_Entropy_Difference.zip)
 
-## Please Note
 
-If you use the keyword extraction software or dynamic link library (dll) in your program or research, please indicate that the part of paper and program cites the following paper.All the source code in the article can be fully copy.
-
-l **Zhen YANG, Jianjun LEI, Kefeng FAN, Yingxu LAI. ****Keyword Extraction by Entropy Difference between the Intrinsic and Extrinsic ****Mode, Physica A: Statistical Mechanics and its Applications, 392 (2013),**** 4523-4531\. **<http://dx.doi.org/10.1016/j.physa.2013.05.052>
 
 ## Introduction
+In this software, we use a kind of entropy difference measure to extract the keywords in a text. It's a simple measure, without any a priori information and effectively extract the keywords in a single text. Here we provide the dll which is developed by C++ and C# language. We also provide keywords extraction software for you to use which is developed by C#. By using this software, the only thing you need to do is set the path of files to be done, and the software can help you finish the rest of work. For English text, you should ensure that the text is a standard format, or you can use the "pretreatment" function in the software to format the text. Then, you can select one of the methods-general entropy or Maximum Entropy to extract the keywords.
 
 ![Figure1: software interface ](https://lh5.googleusercontent.com/-ANXB5lR2E4g/UiyNC-opGsI/AAAAAAAAAAs/4wjFr4hsp6I/w735-h552-no/1.png "Figure1: software interface")
 
-In this software, we use a kind of entropy difference measure to extract the keywords in a text. It's a simple measure, without any a priori information and effectively extract the keywords in a single text. Here we provide the dll which is developed by C++ and C# language. We also provide keywords extraction software for you to use which is developed by C#. By using this software, the only thing you need to do is set the path of files to be done, and the software can help you finish the rest of work. For English text, you should ensure that the text is a standard format, or you can use the "pretreatment" function in the software to format the text. Then, you can select one of the methods-general entropy or Maximum Entropy to extract the keywords.
+
 
 For Chinese text, in order to format the text, you should follow the next steps. First, remove the punctuation and charts in the text. Then, divide the sentences into a list of words. Two successive words are separated by a space. Here we provide the function to remove the punctuation and charts. You should ensure that the sentences in the text has been divide into a list of words. Last, you can select one of the methods----general entropy or Maximum Entropy to extract the keywords.
 
-The **Standardization ****text** will be given in the part of usage. With these things, you can easily complete text keyword extraction work!
+The **Standardization *** *text** will be given in the part of usage. With these things, you can easily complete text keyword extraction work!
 
-## Background
-
-
-One of the most significant different between human-written texts and monkeys typing is the general existence of meaningful topics in human written texts.keyword/relevant word extraction and ranking are the staring point for critical tasks like topic detection and tracking in written texts,and they are widely applied in information extraction,selection and retrieval.
-
-## Features of the Algorithm
-
-### As a new method in keyword extraction field, this method has the following highlights :
-
-<o:p>• It’s a new metric to evaluate and rank the relevance of words in a text. <o:p>• The metric uses the Shannon’s entropy difference between the intrinsic and extrinsic mode. <o:p>• This work is a new result in keyword extraction and ranking.  <o:p>• This method is especially suitable for single documents  of which there is no a priori information available.  <o:p>
-</o:p></o:p></o:p></o:p></o:p>
-
-![Figure 2: Intrinsic mode and extrinsic mode in positions of word-type occurrences in text.](https://lh4.googleusercontent.com/-xu5f5vSp6zY/UiyNC83FL1I/AAAAAAAAAA4/xBC-WA9gxPY/w798-h347-no/2.png)
-
-
-
-Here's the brief introduction of the principle of the algorithm, it can help you understand and use the dll and software better. The idea of intrinsic-extrinsic mode is based on the general idea that highly significant words tend to be modulated by the writer's intension, while common words are essentially uniformly spread throughout a text. So the intrinsic mode denotes the statistical properties of the appearance of a relevant word within a topic, i.e., the statistical properties of clustering within each topic. Meanwhile, the extrinsic mode captures the statistical properties of the disappearance of a word clustering along a written text and it characterizes the relationship between word clustering occurrence within a topic and an author's written style. As shown in FIG. 2\. the distances between two words which is successive occurrences is defined as _d**i**_**= _t_**_i_+1 − _t**i**_**. _T_**_i_ is the position of the word in the text. The arrival time difference _d**i_belongs to the intrinsic mode if _d**i_<μ. In other words, a given occurrence of the word is a part of an intrinsic mode if its local separation is less than its mean waiting time. Let _d**I**_**= {_d_**_i_|_d**i**_**<μ} be the union set for all _d_**_i_<μas shown in the bottom-left figure in FIG. 2\. We found through experiments, that the keyword which appears in the article presents the characteristics of aggregates. so its intrinsic mode entropy is large while its extrinsic mode entropy is small; the general words are evenly distributed in the article, any two consecutive word spacing appears little change, so the entropy difference between the intrinsic and extrinsic mode is small. In this way, you can use the value E which is the entropy difference between the intrinsic and extrinsic mode to extract keywords. In practice, in order to eliminate the words randomly distributed and boundary conditions, we use the _C~c ~ _boundary conditions and the normalized entropy difference _E_~nor~ as the final indicators. If you want to learn more details of this algorithm, please click here (<http://dx.doi.org/10.1016/j.physa.2013.05.052>) to view the full paper.
 
 ## Usage
 
@@ -175,5 +155,5 @@ For the Chinese sample, we have chosen a news report on the network, the title 
 
  This two samples text will also be given in the compressed package.
 
-### Conclusion 
+### Conclusion
   In summary, understanding the complexity of human written text requires an appropriate analysis of the statistical distribution of the words in texts. We find highly significant words tend to be modulated by the writing writer’s intension, while common words are essentially uniformly spread in a text. The ideas of this work can be applied to any natural language with words clearly identified, without requiring any previous knowledge about semantics or syntax.  
