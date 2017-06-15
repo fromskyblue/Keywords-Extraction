@@ -10,6 +10,7 @@ Here ,we provide simple and practical keyword extraction software and dll for lo
 
 
 ## Introduction
+We provide two versions of the software in both English and Chinese.
 In this software, we use a kind of entropy difference measure to extract the keywords in a text. It's a simple measure, without any a priori information and effectively extract the keywords in a single text. Here we provide the dll which is developed by C++ and C# language. We also provide keywords extraction software for you to use which is developed by C#. By using this software, the only thing you need to do is set the path of files to be done, and the software can help you finish the rest of work. For English text, you should ensure that the text is a standard format, or you can use the "pretreatment" function in the software to format the text. Then, you can select one of the methods-general entropy or Maximum Entropy to extract the keywords.
 
 ![Figure1: software interface ](https://lh5.googleusercontent.com/-ANXB5lR2E4g/UiyNC-opGsI/AAAAAAAAAAs/4wjFr4hsp6I/w735-h552-no/1.png "Figure1: software interface")
