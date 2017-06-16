@@ -31,7 +31,7 @@ def add_numbers():
     show1 = ""
     result = dict(zip(result.keys(), v))
     for key, value in result.items():
-        print(key, value)
+        # print(key, value)
         show1 += "<span data-weight=\" " + str(value) + " \">" + key + "</span>";
 
     show2 = ""
