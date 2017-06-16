@@ -23,10 +23,10 @@ def ajax():
 def add_numbers():
     text = request.form['file']
     clean = clean_words(text)
-    print(clean)
+    # print(clean)
     result = get_keyword(remove_stop(clean))
-    result = dict(result[:30])
-    print(result)
+    result = dict(result[:30])  # 因为取了钱30可以忽略负数值问题
+    # print(result)
     v = pd.cut([abs(x) for x in list(result.values())], 5, retbins=True, labels=[1, 2, 3, 5, 10])[0]
     show1 = ""
     result = dict(zip(result.keys(), v))
@@ -37,7 +37,7 @@ def add_numbers():
     show2 = ""
     for word in clean:
         if word in english_stop_words:
-            show2 += "<span class=\"label label-w01\">" + word + "</span>";
+            show2 += "<span class=\"label label-w00\">" + word + "</span>";
         elif word in result.keys():
             if result[word] != 1:
                 show2 += "<span class=\"label label-w" + str(result[word]) + "\">" + word + "</span>";
@@ -54,4 +54,4 @@ def search():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80, debug=True)
+    app.run(host='0.0.0.0', port=80, debug=False)
