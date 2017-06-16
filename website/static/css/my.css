@@ -1,0 +1,61 @@
+.row-m-t {
+    marging-top: 20px;
+}
+
+.wordcloud {
+    height: 354px;
+    border: 1px solid #cccccc;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.center-vertical {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.label-w0 {
+    background-color: #ffffff;
+    color: #000000;
+    display: inline-block;
+    margin-left: 1px;
+}
+
+.label-w00 {
+    background-color: #DDDDDD;
+    display: inline-block;
+    margin-left: 1px;
+}
+
+.label-w01 {
+    background-color: #CCFFFF;
+    display: inline-block;
+    margin-left: 1px;
+}
+
+.label-w1 {
+    background-color: #ed8282;
+    display: inline-block;
+}
+
+.label-w2 {
+    background-color: #dd6262;
+    display: inline-block;
+}
+
+.label-w3 {
+    background-color: #cd4242;
+    display: inline-block;
+}
+
+.label-w5 {
+    background-color: #bd2222;
+    display: inline-block;
+}
+
+.label-w10 {
+    background-color: #ad0202;
+    display: inline-block;
+}
+

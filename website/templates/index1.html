@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Properties -->
+    <title>Keyword Extraction</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='css/favicon.ico') }} "/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }} "/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/my.css') }}"/>
+    <script src="{{ url_for('static', filename='js/jquery-v1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.awesomeCloud-0.2.min.js') }}"></script>
+
+</head>
+<body>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="header">Keyword Extraction Sample</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <textarea rows="18" class="form-control" id="input1">
+
+            </textarea>
+        </div>
+        <div class="col-md-6">
+            <div id="wordcloud" class="wordcloud">
+                <span data-weight="9">welcome</span>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-9">
+            <div class="form-control wordcloud hero-unit" id="show1">
+                <span class="label label-w00">Stop word</span>
+                <span class="label label-w0">Non keyword</span>
+                <span class="label label-w1">keyword</span>
+                <span class="label label-w2">keyword</span>
+                <span class="label label-w3">keyword</span>
+                <span class="label label-w5">keyword</span>
+                <span class="label label-w10">keyword</span>
+            </div>
+
+        </div>
+        <div class="col-md-3 center-vertical">
+            <button type="button" class="btn btn-primary btn-lg" id="submit">Submit</button>
+            <button type="button" class="btn btn-info btn-lg" id="Reset">Reset</button>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#submit").click(function () {
+            var filename = $("#input1").val();
+            $.ajax({
+                type: "POST",
+                url: {{ url_for('add_numbers') }},
+                data: {
+                    file: filename
+                },
+                success: function (response) {
+                    var response = $.parseJSON(response);
+                    $("#wordcloud").html(response['v1']);
+                    world_show();
+                    $("#show1").html(response['v2']);
+                }
+            });
+        });
+        $("#Reset").click(function () {
+            $("#wordcloud").html("<span data-weight=\"9\">welcome</span>");
+            world_show();
+            $("#show1").html("<span class=\"label label-w00\">Stop word</span><span class=\"label label-w0\">Non keyword</span><span class=\"label label-w1\">keyword</span><span class=\"label label-w2\">keyword</span><span class=\"label label-w3\">keyword</span><span class=\"label label-w5\">keyword</span><span class=\"label label-w10\">keyword</span>");
+        });
+        world_show();
+    });
+    function world_show() {
+        $("#wordcloud").awesomeCloud({
+            "size": {
+                "grid": 2,
+                "normalize": true,
+                "factor": 20,
+            },
+            "options": {
+                "color": "random-dark",
+                "rotationRatio": 0,
+                "printMultiplier": 1
+            },
+            "font": "'Times New Roman', Times, serif",
+            "shape": "square"
+        });
+    }
+
+</script>
+
+</body>
+</html>

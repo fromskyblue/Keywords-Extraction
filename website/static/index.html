@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" class="backgroundsize bgsizecover cssanimations preserve3d csstransforms csstransforms3d csstransitions">
+
+<head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="keywords" content=" " />
+        <meta name="description" content=" " />
+        <title>Peakpx - All royalty free images & HD wallpapers</title>
+        <link rel="shortcut icon" href="css/favicon.ico"/>
+
+        <link rel="stylesheet" href="css/portal.css" />
+        <link rel="stylesheet" href="css/bootstrap.css" />
+    </head>
+    <body id="home" class="scenes-ready">
+        <main id="container">
+            <div id="content">
+                <section id="stage">
+                    <img width="273" height="54" src="css/logo.png" id="logo" alt="Peakpx Logo"/>
+                    <div id="search">
+                        <form id="portal_search" method="get" action="http://www.peakpx.com/" >
+                            <textarea class="form-control" rows="3"></textarea>
+                            
+                            <input type="submit" id="search_sub" value="Get Key Word">
+                        </form>
+                    </div>
+
+                    
+                    <div class="space"></div>
+                    <div class="mountains">
+                        <div class="mountain mountain-1"></div>
+                        <div class="mountain mountain-2"></div>
+                        <div class="mountain mountain-3"></div>
+                    </div>
+                    <div class="bear"></div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <canvas id="bgCanvas"></canvas>
+            <script>
+                document.getElementById('portal_search').addEventListener('submit',function () {
+                    var value=document.getElementById('search_input').value.toLowerCase();
+                    value=value.replace('hd wallpaper','').replace('wallpaper','').replace('images','').replace('image','').replace('photo','').replace(/[^\w\s]|_/g, " ").replace(/\s+/g, " ").replace(/(^\s*)|(\s*$)/g, "");
+                    if(value!=''){
+                        var value_arr=value.split(' ').filter(function(e){return e});
+                        location.href='http://www.peakpx.com/'+value_arr.join('-');
+                    }
+                });
+                function setsize(){
+                    var b=22+(document.body.clientHeight-764)*5.5/164;
+                    document.documentElement.style.fontSize = b+"px";
+                    document.body.style.fontSize = b+"px";
+                }
+                setsize();
+                window.onresize =setsize;
+                (function() {
+                    var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+                        window.webkitRequestAnimationFrame || window.msRequestAnimationFrame || function( callback ){
+                            window.setTimeout(callback, 1000 / 60);
+                        };
+                    window.requestAnimationFrame = requestAnimationFrame;
+                })();
+                var background = document.getElementById("bgCanvas"),
+                    bgCtx = background.getContext("2d"),
+                    width = window.innerWidth,
+                    height = document.body.offsetHeight;
+                (height < 400)?height = 400:height;
+                background.width = width;
+                background.height = height;
+                function ShootingStar(){
+                    this.reset();
+                }
+                ShootingStar.prototype.reset = function(){
+                    this.x = Math.random()*width;
+                    this.y = 0;
+                    this.len = (Math.random()*80)+10;
+                    this.speed = (Math.random()*10)+6;
+                    this.size = (Math.random()*2)+0.1;
+                    this.waitTime =  new Date().getTime() + (Math.random()*2000)+500;
+                    this.active = false;
+                }
+                ShootingStar.prototype.update = function(){
+                    if(this.active){
+                        this.x-=this.speed;
+                        this.y+=this.speed;
+                        if(this.x<0 || this.y >= height){
+                            this.reset();
+                        }else{
+                            bgCtx.lineWidth = this.size;
+                            bgCtx.beginPath();
+                            bgCtx.moveTo(this.x,this.y);
+                            bgCtx.lineTo(this.x+this.len, this.y-this.len);
+                            bgCtx.stroke();
+                        }
+                    }else{
+                        if(this.waitTime < new Date().getTime()){
+                            this.active = true;
+                        }
+                    }
+                }
+                var entities = [];
+                entities.push(new ShootingStar());
+                entities.push(new ShootingStar());
+                function animate(){
+                    var my_gradient=bgCtx.createLinearGradient(0,0,0,height);
+                    my_gradient.addColorStop(0,"#07091E");
+                    my_gradient.addColorStop(1,"#464854");
+                    bgCtx.fillStyle = my_gradient;
+                    bgCtx.fillRect(0,0,width,height);
+                    bgCtx.strokeStyle = '#FFFFFF';
+                    var entLen = entities.length;
+                    while(entLen--){
+                        entities[entLen].update();
+                    }
+                    requestAnimationFrame(animate);
+                }
+                animate();
+            </script>
+        </footer>
+    </body>
+
+<!-- Mirrored from www.peakpx.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 May 2017 00:38:30 GMT -->
+</html>
