@@ -7,9 +7,10 @@ We strive to propose a new metric to evaluate and rank the relevance of words in
 ### Project Members
 
 *   Zhen Yang
-*   E Youjun
 *   Chen Weitong
+*   Li Hanchen
 *   Li Chaoyang
+*   E Youjun
 
 ### Background
 
