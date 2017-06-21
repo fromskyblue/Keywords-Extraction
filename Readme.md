@@ -10,6 +10,7 @@ We strive to propose a new metric to evaluate and rank the relevance of words in
 *   Chen Weitong
 *   Li Hanchen
 *   Li Chaoyang
+*   Longbo Zhang
 *   E Youjun
 
 ### Background
