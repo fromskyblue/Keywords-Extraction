@@ -39,12 +39,13 @@ Here's the brief introduction of the principle of the algorithm, it can help you
 
 ### Please Note
 
-If you use the keyword extraction software or dynamic link library (dll) in your program or research, please indicate that the part of paper and program cites the following paper.All the source code in the article can be fully copy.
-**Zhen YANG, Jianjun LEI, Kefeng FAN, Yingxu LAI. Keyword Extraction by Entropy Difference between the Intrinsic and Extrinsic Mode, Physica A: Statistical Mechanics and its Applications, 392 (2013), 4523-4531. \<http://dx.doi.org/10.1016/j.physa.2013.05.052\>**
+If you use the keyword extraction software or dynamic link library (dll) in your program or research, please indicate that the part of paper and program cites the following paper.
+
+**Zhen YANG, Jianjun LEI, Kefeng FAN, Yingxu LAI. Keyword Extraction by Entropy Difference between the Intrinsic and Extrinsic Mode, Physica A: Statistical Mechanics and its Applications, 392 (2013), 4523-4531. <http://dx.doi.org/10.1016/j.physa.2013.05.052>**
 
 ### Code & Toolbox
 
-*   Github page (Soon!)
+*   Github page
 
 *   [Codeproject page](https://www.codeproject.com/Articles/643619/Keyword-Extraction-Based-On-Entropy-Difference)
 
