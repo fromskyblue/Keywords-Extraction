@@ -27,7 +27,7 @@ def add_numbers():
     result = get_keyword(remove_stop(clean))
     result = dict(result[:30])  # 因为取了钱30可以忽略负数值问题
     # print(result)
-    v = pd.cut([abs(x) for x in list(result.values())], 5, retbins=True, labels=[1, 2, 3, 5, 10])[0]
+    v = pd.cut([abs(x) for x in list(result.values())], 5, retbins=True, labels=[1, 2, 3, 4, 5])[0]
     show1 = ""
     result = dict(zip(result.keys(), v))
     for key, value in result.items():
@@ -54,4 +54,4 @@ def search():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80, debug=False)
+    app.run(host='0.0.0.0', port=80, debug=True)

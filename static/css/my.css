@@ -3,7 +3,7 @@
 }
 
 .wordcloud {
-    height: 354px;
+    height: 374px;
     border: 1px solid #cccccc;
     overflow: auto;
     overflow-x: hidden;
@@ -13,6 +13,15 @@
     display: inline-block;
     vertical-align: middle;
     float: none;
+}
+
+.top-buffer {
+    margin-top: 50%;
+}
+
+.demobtn {
+    text-align: left;
+    padding-left: 25px;
 }
 
 .label-w0 {
@@ -50,12 +59,12 @@
     display: inline-block;
 }
 
-.label-w5 {
+.label-w4 {
     background-color: #bd2222;
     display: inline-block;
 }
 
-.label-w10 {
+.label-w5 {
     background-color: #ad0202;
     display: inline-block;
 }
