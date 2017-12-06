@@ -43,26 +43,10 @@ If you use the keyword extraction software or dynamic link library (dll) in your
 
 **Zhen YANG, Jianjun LEI, Kefeng FAN, Yingxu LAI. Keyword Extraction by Entropy Difference between the Intrinsic and Extrinsic Mode, Physica A: Statistical Mechanics and its Applications, 392 (2013), 4523-4531. <http://dx.doi.org/10.1016/j.physa.2013.05.052>**
 
+
 ### Code & Toolbox
 
-*   Github page
-
+*   [Online Demo!!!](http://67.209.177.93/)
+*   [Github page](https://github.com/fromskyblue/Keywords-Extraction)
 *   [Codeproject page](https://www.codeproject.com/Articles/643619/Keyword-Extraction-Based-On-Entropy-Difference)
-
 *   [SPROUT toolbox](http://ace.autotutor.org/downloads/sprout.1.0.0.0.zip), developed by [Prof. Zhiqiang Cai](http://yzlab.net/zcai.autotutor.org), which use our algorithm to extract keywords for target corpus, and then use the keywords to find extra articles on wiki to expand the corpus.
-
-
-
-
-
-
-### Update
-
-1.  张龙伯. 基于多尺度划分的关键词检测算法, 北京工业大学硕士学位论文，2014.
-    张龙伯. 基于多尺度划分的关键词检测系统, 计算机软著(登记号: 2014SRBJ0226)，2014.
-
-    1.  在YANG’ 13算法的基础上加入多尺度分析方法。
-
-    2.  对文章进行多尺度划分的方法，综合考虑词语在各个粒度下的分布特性，计算词语的主题相关度，从而有效的检测出文本中的关键词。
-
-    3.  对文章《物种起源》进行关键词检测，性能明显提升，得到top19准确率100%的性能。
