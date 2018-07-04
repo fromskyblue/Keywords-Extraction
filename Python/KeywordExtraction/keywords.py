@@ -2,12 +2,7 @@ import math
 import operator
 import string
 
-from algorithm.keyword.stop_words import english_stop_words
-
-
-# f = open(r'.\text.txt')
-# f = open(r'.\algorithm\keyword\text.txt')
-# text = f.read()
+from stop_words import english_stop_words
 
 def remove_stop(text):
     'Remove stop word'
@@ -19,7 +14,15 @@ def clean_words(text):
     text = text.replace("\n", " ")
     text = text.replace("\t", " ")
     delEStr = string.punctuation + string.digits + "–|[：+——！，。？、~@#￥%……&*（）]"
-    translation = str.maketrans("", "", delEStr)
+    #   This is caused by obsolete string built-in function implementation
+    #   Python 2's api is not built-in and Python 3 is built inside the interpreter
+    #   Also the maketrans have changed arg format to (before_char_list, after_char_list)
+    #   to establish the mapping between those chars
+    '''#   python 2.7+ compatible
+    translation = string.maketrans(delEStr, str(" "*len(delEStr)))
+    '''
+    #   python 3.3+ compatible
+    translation = str.maketrans(delEStr, str(" "*len(delEStr)))
     text = text.translate(translation)  # Remove punctuation and numbers
     text = text.lower()
     text = text.split(' ')
@@ -90,9 +93,12 @@ def get_keyword(text):
     # print('Calculate Over...')
     v = sorted(value.items(), key=operator.itemgetter(1), reverse=True)
     return v
-    # print('\nResult:')
-    # for m in range(10):
-    #     print(v[m])
 
+if __name__ == '__main__':
+    """
+    Self keyword extraction testing
+    """
+    with open('keywords.py', 'r') as f:
+        print(get_keyword(remove_stop(clean_words(f.read())))[:])
+        f.close()
 
-    # a = get_keyword(clean_words(text)[:2000])
